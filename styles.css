@@ -23,3 +23,8 @@ h2{
 .tareas{
     list-style: none;
 }
+.tarea__link{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
