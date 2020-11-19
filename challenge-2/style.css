@@ -15,7 +15,7 @@ body{
     justify-content: center;
     background-color: hsl(257, 40%, 49%);
 
-    border: 5px solid red;
+    /* border: 5px solid red; */
 }
 .wrapper{
     max-width: 1440px;
