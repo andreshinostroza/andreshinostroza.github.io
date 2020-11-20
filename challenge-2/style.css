@@ -29,7 +29,7 @@ body{
     padding: 30px;
 }
 .logo{
-    width: 18%;
+    width: 25%;
 }
 .main{
     margin: 30px 20px 0 20px;
@@ -101,4 +101,25 @@ body{
 .button:hover {
 	color: white;
     background-color:  hsl(300, 69%, 71%);
+}
+@media screen and (max-width:600px){
+    body{
+        background-image: url(./images/bg-mobile.svg);
+    }
+    .logo{
+        width: 35%;
+    }
+    .main{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .figure, .section {
+        width: 90%;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .footer{
+        text-align: center;
+    }
 }
