@@ -10,12 +10,12 @@ body{
     height: 100vh;
     /* background-color: hsl(257, 40%, 49%); */
     font-family: 'Be Vietnam', sans-serif;
-    background-image: url("./../images/bg-tablet-pattern.svg");
+    background-image: url("./images/bg-tablet-pattern.svg");
     background-repeat: no-repeat;
 	background-position: calc(100% + 10rem) -15rem;
 }
 .middle {
-	background-image: url("./../images/bg-tablet-pattern.svg");
+	background-image: url("./images/bg-tablet-pattern.svg");
 	background-repeat: no-repeat;
 	position: absolute;
 	/* background-color: #222; */
@@ -185,7 +185,7 @@ body{
     justify-content: center;
     /* text-align: center; */
     height: 150px;
-    background-image: url("./../images/bg-simplify-section-desktop.svg");
+    background-image: url("./images/bg-simplify-section-desktop.svg");
     background-position: 0 63%;
 }
 .message__wrapper{
@@ -224,17 +224,23 @@ body{
     display: flex;
     justify-content: space-between;
 }
+.footer__figure{
+    /* background-color: aquamarine; */
+    width: 17%;
+    margin-right: 2%;
+}
 .logo__final{
     width: 100%;
 }
 .logo__final1{
     padding-top: 40px;
+    
 }
 .footer__list{
     width: 60%;
     /* background-color: thistle; */
     columns: 2;
-    padding-right: 150px;
+    padding-right: 100px;
 }
 
 .footer__list li{
@@ -243,7 +249,7 @@ body{
     /* background-color: teal;   */
 }
 .footer__form{
-    /* background-color: thistle; */
+    /* background-color: darkcyan; */
     text-align: right;
 }
 .imput__text{
@@ -254,6 +260,8 @@ body{
     border-radius: 20px;
     outline: none;
     border: none;
+    margin-bottom: 15px;
+
 }
 .imput__submit{
     background-color:hsl(12, 88%, 59%);
